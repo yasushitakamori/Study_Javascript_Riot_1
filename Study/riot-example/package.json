@@ -1,0 +1,19 @@
+{
+  "name": "riot-example",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "main.js",
+  "dependencies": {
+    "riot": "^6.0.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --inline --watch --hot --colors -d --port 3000",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}

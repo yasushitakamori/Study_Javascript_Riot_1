@@ -1,0 +1,22 @@
+{
+  "name": "riot_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --watch --hot --colors -d --port 3000",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@riotjs/compiler": "^6.0.1",
+    "@riotjs/hot-reload": "^6.0.0",
+    "@riotjs/webpack-loader": "^6.0.0",
+    "mysql2": "^2.2.5",
+    "riot": "^6.0.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
